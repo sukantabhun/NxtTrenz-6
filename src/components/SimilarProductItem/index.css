@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.prod-star-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  padding: 8px;
+}
+.stars-image {
+  width: 25px;
+}
+.item-details {
+  display: flex;
+  justify-content: space-between;
+}
+.similar-item-image {
+  width: 300px;
+  border-radius: 12px;
+}
+.div-container {
+  max-width: 300px;
+}

@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.shopping-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.products-container {
+  display: flex;
+  margin: 45px;
+  column-gap: 45px;
+  font-size: 20px;
+}
+.product-image {
+  size: contain;
+  height: 800px;
+  width: 600px;
+  border-radius: 12px;
+}
+@media screen and (max-width: 766px) {
+  .products-container {
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    row-gap: 45px;
+    font-size: 20px;
+  }
+  .product-image {
+    size: contain;
+  }
+}
+.product-heading {
+  font-size: 35px;
+}
+.prod-star-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  padding: 8px;
+}
+.stars-image {
+  width: 25px;
+}
+.reviews-container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  justify-content: center;
+  width: fit-content;
+}
+span {
+  font-weight: bold;
+}
+.cart-count-container {
+  display: flex;
+  column-gap: 15px;
+
+  align-items: center;
+}
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.error-image {
+  width: 90vw;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+@media screen and (max-width: 766px) {
+  .similar-product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  margin: 45px;
+  column-gap: 45px;
+  font-size: 20px;
+}
+
+.similar-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 35px;
+  font-size: medium;
+}
+.transparent{
+  background-color: transparent;
+  border: none;
+}
